@@ -1,0 +1,5 @@
+N = int(input("Please enter a number: "))
+sum_of_odd_numbers = sum(range(1,N+1,2))
+average_of_even_numbers = sum(range(0,N+1,2)) / len(range(2,N+1,2))
+print("Sum of odd numbers from 1 up to",N,"is", sum_of_odd_numbers)
+print("Average of even numbers from 1 up to",N,"is", average_of_even_numbers)
